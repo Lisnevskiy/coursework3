@@ -2,7 +2,7 @@ import logging
 
 from flask import Blueprint, jsonify
 
-from coursework2_source.utils import get_posts_all, get_post_by_pk
+from utils import get_posts_all, get_post_by_pk
 
 
 api_blueprint = Blueprint('api_blueprint', __name__)

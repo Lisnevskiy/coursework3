@@ -1,4 +1,4 @@
-from flask import Flask, send_from_directory, render_template, request
+from flask import Flask, render_template, request
 
 from utils import get_posts_all, get_comments_by_post_id, get_post_by_pk, get_posts_by_user, search_for_posts
 
